@@ -65,6 +65,7 @@ def main():
 	print(info.response)
 
 	for app in info.response:
-		print(app['title'])
+		print(app[0])
+
 
 main()
